@@ -94,7 +94,7 @@ class TestTerraform(unittest.TestCase):
             else:
                 self.assertEqual(resource, expected)
 
-    def resurce_by_name(self, resource_list, name):
+    def resource_by_name(self, resource_list, name):
         for resource in resource_list:
             if resource["__tfmeta"]["path"] == name:
                 return resource
@@ -115,7 +115,7 @@ class TestTerraform(unittest.TestCase):
         self.assertIn("aws_security_group", self.tf, "No aws_security_group block found")
         security_groups = self.tf["aws_security_group"]
 
-        security_group = self.resurce_by_name(security_groups, "aws_security_group.hextris-server")
+        security_group = self.resource_by_name(security_groups, "aws_security_group.hextris-server")
         self.assertIsNotNone(security_group, "No security group named hextris-server")
 
         self.assertResource(security_group, EXPECTED_SECURITY_GROUP)
@@ -124,7 +124,7 @@ class TestTerraform(unittest.TestCase):
         self.assertIn("aws_instance", self.tf, "No aws_instance block found")
         instances = self.tf["aws_instance"]
 
-        instance = self.resurce_by_name(instances, "aws_instance.hextris-server")
+        instance = self.resource_by_name(instances, "aws_instance.hextris-server")
         self.assertIsNotNone(instance, "No instance named hextris-server")
 
         self.assertResource(instance, EXPECTED_INSTANCE)
@@ -133,7 +133,7 @@ class TestTerraform(unittest.TestCase):
         self.assertIn("output", self.tf, "No output block found")
         outputs = self.tf["output"]
 
-        output = self.resurce_by_name(outputs, "output.hextris-url")
+        output = self.resource_by_name(outputs, "output.hextris-url")
         self.assertIsNotNone(output, "No output named hextris-url")
 
         self.assertResource(output, EXPECTED_OUTPUT)
