@@ -1,11 +1,11 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "61f99fa53f2171aa07a8aeda7420bc14597ee87249e43635e56b2246ff14ae04"
+            "sha256": "d427a806195020adf22e854ca85c870c94dcb7b32c4b33179c717782d4254df2"
         },
         "pipfile-spec": 6,
         "requires": {
-            "python_version": "3.12"
+            "python_version": "3.13"
         },
         "sources": [
             {
@@ -99,30 +99,72 @@
         },
         "tfparse": {
             "hashes": [
-                "sha256:128e60d1600d354309143f7a0853704b32a1cefe72f5fa93210478be09435225",
-                "sha256:1e2a64084b7cebfb6328428a9c034e6e692bc13aba44a532343542b621640846",
-                "sha256:43fa086fd5c458a9d43da363ca6d70cfca9d21f7f663312adcf8384fc7d90d5d",
-                "sha256:713975d6f1ebb12e127d1b3f2726236116289ce180f360c88304379a8e8f3045",
-                "sha256:73a02e41d98ee12eb8389e4f860df1d5d8220127834d2898033ce489650502d0",
-                "sha256:747c9a918c5efab2713e593aefb9f3f94b96c70c20e31eb985ee32ffa669170e",
-                "sha256:797fdc587d93d6a5d7d54d1a5a13c88c7d1ce96bcc733e80cb2ee62c8e1e31a3",
-                "sha256:8e2ebcf5319ac2aa3af37b93bc7bb58dd0a992094ed2632500d5465f2179d508",
-                "sha256:9e3036b9e6b23ac829b63de52cdbe339880ea5364d5052f31727b5415171f995",
-                "sha256:a176f91ccad24c104b71d80b49dfb61c201d7f0d2a425c2ba6b7c689c318c02e",
-                "sha256:a30c619c4a61a6eab5223284b35212fb32e41f8dc750e651d676586ed53a8aca",
-                "sha256:ac394142b949343f5597ba2ff46125d87f1b3aa121d13439437399945c65bc99",
-                "sha256:b55fd82f9ee91499a9f2caa5a2626c615e58598fe0e723d8532de179abdc5bd2",
-                "sha256:bda6a0c3cd76294d180bca13897d520cbf329d97a07c0e6a006c58ffa0370e39",
-                "sha256:ca485f81694a453e71de2973c673b74464129e462cd5711f5130eab47d197898",
-                "sha256:d18551a829db190de944c528e5b973836f4cc9c0c6da7a9ee0083e750c8e5f25",
-                "sha256:d9b942c4d69c0407697ab794a36468db1bdb214c543df9fc27151a84be44cd0c",
-                "sha256:dc2e98051e4ce24fe81dee894b9d193e2a3052fb90af44473c13087168de6fbb",
-                "sha256:fbf152247d777f0fb07c5ef3e097a2fe657dfc464a8951b7c03c4fe1a8719be0",
-                "sha256:fe926ea2e2c955ac329a907a2b541fff380946a3e62c6c17af2e8e1854d2b289"
+                "sha256:026aee7e7ceee09143afd61432330f3cd3d1af8b3426d1e36053e9e45e0b735c",
+                "sha256:0b24834a6fd1b137136e742cbe82aaa133eec58cce3f4e0a23ef7f59943d66fc",
+                "sha256:1217aa2905c3bf6a31968ae302315592aa5fddb0b4fb3aebcfc1d0f68d5030eb",
+                "sha256:12ed3df48a47301aaeb92ecda526f141252edb37773b1e4759ffd37e4958aee4",
+                "sha256:1a9e24d0aec69c8e8f24620da7f93a9083f456118745a1bd71926d9f01724648",
+                "sha256:35181f682da92b027a5f33cd1e6db6099b50cff044b7934e3be3e3978facce99",
+                "sha256:35fcb1237ed3151958dda6044e7fc3df35dac4719b42d715fa7e8de87a42bffc",
+                "sha256:364e7a4059e3b52f44e2b3e422a9c6e143cbb5c2240738738dd3a1caa2444b88",
+                "sha256:3a8a358998e250949ffd87413bc1c0d18e90f664cd077dfb05d59a661e56b9bb",
+                "sha256:3c6991e3b37c5aa9ae020ec219a9128719cc2505c1c03ef3181c1aedd4b24adc",
+                "sha256:4166aeb45a27c6a0a71978de86b335a15d4748f071053ba9f669237922cbf96e",
+                "sha256:5628f080be9bc1cd7e95734eef182e1daf1074bdeceaa95dab39e7e55a474df9",
+                "sha256:630933ff24ccf9dbb54528fa523a5a59903f3a0f67ff1f9701edcced5a66a5d7",
+                "sha256:6caf9672bf7e3ecd3f7e8578e915a05664085192be0bdf85a854b7df178c12ed",
+                "sha256:6eb575a1316551eb8ff7711cb1848918b12bf27002fcdead87b42d0c7c0567da",
+                "sha256:8ce403cc6d0f924519307954b3cc8dc0dd1c79525ef60a2921023b9b9a5af154",
+                "sha256:8ddad7127839a54e12b28f592d11a71defa0a8fc086109fbaaccc77d1ad7a870",
+                "sha256:a8e747dc39af6fa1675876eb317faedaf08e88008092424ed02bf99cb771e4e3",
+                "sha256:eab5f6e031e0c515236556f429ad6bfae82ac5a089dc1da2f818a3737f1f6f2b",
+                "sha256:ee2a9a1495e5873297168e0f817ebced20983bdea3300ccdd510404c31236a37"
             ],
             "index": "pypi",
-            "version": "==0.6.14"
+            "version": "==0.6.15"
         }
     },
-    "develop": {}
+    "develop": {
+        "colorama": {
+            "hashes": [
+                "sha256:08695f5cb7ed6e0531a20572697297273c47b8cae5a63ffc6d6ed5c201be6e44",
+                "sha256:4f1d9991f5acc0ca119f9d443620b77f9d6b33703e51011c16baf57afb285fc6"
+            ],
+            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6'",
+            "version": "==0.4.6"
+        },
+        "iniconfig": {
+            "hashes": [
+                "sha256:3abbd2e30b36733fee78f9c7f7308f2d0050e88f0087fd25c2645f63c773e1c7",
+                "sha256:9deba5723312380e77435581c6bf4935c94cbfab9b1ed33ef8d238ea168eb760"
+            ],
+            "markers": "python_version >= '3.8'",
+            "version": "==2.1.0"
+        },
+        "packaging": {
+            "hashes": [
+                "sha256:09abb1bccd265c01f4a3aa3f7a7db064b36514d2cba19a2f694fe6150451a759",
+                "sha256:c228a6dc5e932d346bc5739379109d49e8853dd8223571c7c5b55260edc0b97f"
+            ],
+            "markers": "python_version >= '3.8'",
+            "version": "==24.2"
+        },
+        "pluggy": {
+            "hashes": [
+                "sha256:2cffa88e94fdc978c4c574f15f9e59b7f4201d439195c3715ca9e2486f1d0cf1",
+                "sha256:44e1ad92c8ca002de6377e165f3e0f1be63266ab4d554740532335b9d75ea669"
+            ],
+            "markers": "python_version >= '3.8'",
+            "version": "==1.5.0"
+        },
+        "pytest": {
+            "hashes": [
+                "sha256:c69214aa47deac29fad6c2a4f590b9c4a9fdb16a403176fe154b79c0b4d4d820",
+                "sha256:f4efe70cc14e511565ac476b57c279e12a855b11f48f212af1080ef2263d3845"
+            ],
+            "index": "pypi",
+            "markers": "python_version >= '3.8'",
+            "version": "==8.3.5"
+        }
+    }
 }
